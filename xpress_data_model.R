@@ -1,10 +1,6 @@
 library(RMySQL)
 library(dplyr)
 library(tidyr)
-user <- "analytics"
-pwd <- "yqmEdnyUJrp9UUxNKCmQJUHy"
-db <- "greenlight"
-host <- "greenlight.cluster-c2krgz5jvib9.us-east-1.rds.amazonaws.com"
 
 my_db <- dbConnect(MySQL(), 
                    user = user,
